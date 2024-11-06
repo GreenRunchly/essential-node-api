@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1"
+  },
+  "name": "node-api-jwt-with-db",
+  "version": "1.0.0",
+  "description": "Aplikasi api lengkap dengan autentikasi jwt, database query, dan input validation",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rizki Irfan Anshori",
+  "license": "ISC"
+}
